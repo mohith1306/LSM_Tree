@@ -57,20 +57,6 @@ mini-lsm/
 
 ---
 
-## Project Structure
-
-
-mini-lsm/
-└── src/
-└── lsm/
-├── Client.java
-├── MemTable.java
-├── WriteAheadLog.java
-├── SSTable.java
-└── LSMEngine.java
-
-
----
 
 ## Supported Commands
 
