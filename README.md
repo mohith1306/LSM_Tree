@@ -83,7 +83,7 @@ NULL
 
 ## How to Run
 1. Clone the repository
-git clone https://github.com/mohith1306/mini-lsm.git
+git clone https://github.com/mohith1306/LSM_Tree.git
 2. Open the project in VS Code or any Java IDE
 3. Run `Main.java`
 
