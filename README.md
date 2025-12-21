@@ -20,21 +20,18 @@ This project is intended for **academic learning and system design understanding
 
 ## Architecture
 
-
-Client (CLI)
-|
-v
-LSM Engine
-|
-|--> Write-Ahead Log (WAL)
-|
-|--> MemTable (in-memory, sorted)
-|
-|--> SSTables (disk, immutable)
-|
-|--> Compaction (background)
-
-
+```text
+mini-lsm/
+ ├── data/
+ ├── LICENSE
+ ├── Main.class
+ ├── Main.java
+ ├── MemTable.class
+ ├── MemTable.java
+ ├── README.md
+ ├── StorageEngine.class
+ └── StorageEngine.java
+```
 
 ---
 
