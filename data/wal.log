@@ -1,0 +1,12 @@
+SET name mohith
+SET age 22
+SET city Bangalore
+SET lang Java
+SET role Student
+SET name mohith
+DELETE age
+SET k1 v1
+SET k2 v2
+SET k3 v3
+SET k4 v4
+SET k5 v5
