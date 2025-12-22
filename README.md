@@ -20,21 +20,18 @@ This project is intended for **academic learning and system design understanding
 
 ## Architecture
 
-
-Client (CLI)
-|
-v
-LSM Engine
-|
-|--> Write-Ahead Log (WAL)
-|
-|--> MemTable (in-memory, sorted)
-|
-|--> SSTables (disk, immutable)
-|
-|--> Compaction (background)
-
-
+```text
+mini-lsm/
+ ├── data/
+ ├── LICENSE
+ ├── Main.class
+ ├── Main.java
+ ├── MemTable.class
+ ├── MemTable.java
+ ├── README.md
+ ├── StorageEngine.class
+ └── StorageEngine.java
+```
 
 ---
 
@@ -60,20 +57,6 @@ LSM Engine
 
 ---
 
-## Project Structure
-
-
-mini-lsm/
-└── src/
-└── lsm/
-├── Client.java
-├── MemTable.java
-├── WriteAheadLog.java
-├── SSTable.java
-└── LSMEngine.java
-
-
----
 
 ## Supported Commands
 
@@ -100,7 +83,7 @@ NULL
 
 ## How to Run
 1. Clone the repository
-git clone https://github.com/mohith1306/mini-lsm.git
+git clone https://github.com/mohith1306/LSM_Tree.git
 2. Open the project in VS Code or any Java IDE
 3. Run `Main.java`
 
