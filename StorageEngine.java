@@ -1,11 +1,8 @@
 import java.io.*;
 import java.util.Map;
-
 public class StorageEngine {
-
     private final MemTable memTable = new MemTable();
     private final File dataFile;
-
     public StorageEngine(String dir, int memSize, int maxSSTables) {
         File folder = new File(dir);
         if (!folder.exists()) {
@@ -17,7 +14,6 @@ public class StorageEngine {
     // PUT
     public void set(String key, String value) {
         memTable.put(key, value);
-
         if (memTable.isFull()) {
             flushToDisk();
         }
